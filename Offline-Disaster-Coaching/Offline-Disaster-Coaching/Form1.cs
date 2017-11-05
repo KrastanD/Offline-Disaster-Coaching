@@ -39,6 +39,18 @@ namespace Offline_Disaster_Coaching
             {
                 
             }
+            else if (metroComboBox1.Text == "Flood")
+            {
+
+            }
+            else if (metroComboBox1.Text == "Hurricane")
+            {
+
+            }
+            else if (metroComboBox1.Text == "Tornado")
+            {
+
+            }
         }
     }
 }
