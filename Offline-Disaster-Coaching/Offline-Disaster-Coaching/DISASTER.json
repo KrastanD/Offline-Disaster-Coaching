@@ -1,0 +1,34 @@
+﻿[
+ {
+   "FIELD1": "EARTHQUAKE",
+   "FIELD2": "Drop to the ground",
+   "FIELD3": "Get under a sturdy shelter: desk or table",
+   "FIELD4": "Hold on until the ground stops shaking",
+   "FIELD5": "When it is over, follow the instructions of local authorities",
+   "FIELD6": "Put your family's emergency plan"
+ },
+ {
+   "FIELD1": "FLOODING",
+   "FIELD2": "Know where the flooding is happening",
+   "FIELD3": "If in the flood warning area, evacuate immediately",
+   "FIELD4": "If not in the flood warning area, seek higher ground immediately",
+   "FIELD5": "",
+   "FIELD6": ""
+ },
+ {
+   "FIELD1": "HURRICANE",
+   "FIELD2": "Prepare supplies",
+   "FIELD3": "Cover home's windows",
+   "FIELD4": "Secure outdoor object",
+   "FIELD5": "Stay informed by media",
+   "FIELD6": "Prepare to evacuate"
+ },
+ {
+   "FIELD1": "TORNADO",
+   "FIELD2": "Take shelter in basement",
+   "FIELD3": "Stay away from windows,doors, and exterior walls",
+   "FIELD4": "If outside, lie flat in a ditch or low location",
+   "FIELD5": "",
+   "FIELD6": ""
+ }
+]

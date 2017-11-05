@@ -9,13 +9,25 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using MetroFramework.Forms;
 using Newtonsoft.Json;
-
+using System.IO;
 
 namespace Offline_Disaster_Coaching
 {
 
+    public class RootObject
+    {
+        public string FIELD1 { get; set; }
+        public string FIELD2 { get; set; }
+        public string FIELD3 { get; set; }
+        public string FIELD4 { get; set; }  
+        public string FIELD5 { get; set; }
+    }
+
     public partial class Form1 : MetroForm
     {
+
+
+
         public Form1()
         {
             InitializeComponent();
@@ -35,7 +47,15 @@ namespace Offline_Disaster_Coaching
 
         private void metroComboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if(metroComboBox1.Text == "Earthquakes")
+
+            using (StreamReader file = File.OpenText(@"C:\Users\Krastan\Documents\GitHub\Offline-Disaster-Coaching"))
+                {
+                   JsonSerializer serializer = new JsonSerializer();
+                    RootObject obj = (RootObject)serializer.Deserialize(file, typeof(RootObject));
+                }
+
+
+            if (metroComboBox1.Text == "Earthquakes")
             {
                 
             }
